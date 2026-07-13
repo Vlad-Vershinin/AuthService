@@ -1,0 +1,69 @@
+.vs/
+.vscode/
+bin/
+obj/
+out/
+publish/
+artifacts/
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.assets.json
+.nuget/
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.rsuser
+*.userprefs
+
+# Visual Studio
+*.vcxproj.user
+*.vcxproj.filters
+*.pdb
+
+# Build logs and test results
+*.log
+TestResults/
+*.trx
+*.tlog
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+coverage*.xml
+
+# Entity Framework
+*.dbmdl
+
+# Deploy
+*.publishsettings
+*.azurePubxml
+wwwroot/
+
+# Secrets and local settings
+appsettings*.json
+secrets.json
+.env
+*.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+**/docker-compose.override.yml
+
+# Ignore NuGet build outputs created by the build server
+_ReSharper*/
+*/.vs/
