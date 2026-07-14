@@ -1,6 +1,6 @@
-﻿using System.Security.Claims;
+using System.Security.Claims;
 
-namespace Core;
+namespace Core.Models;
 
 public interface IAuthUser<TId> where TId : IEquatable<TId>
 {

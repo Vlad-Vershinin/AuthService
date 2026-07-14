@@ -1,6 +1,6 @@
-﻿namespace Core;
+namespace Core.Services;
 
-public class PasswordHasher : IPasswordHasher
+public class PasswordHasher : Interfaces.IPasswordHasher
 {
     private const int WorkFactor = 11;
 

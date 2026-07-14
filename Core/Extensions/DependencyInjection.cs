@@ -1,9 +1,12 @@
-﻿using System.Text;
+using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
+using Core.Interfaces;
+using Core.Models;
+using Core.Services;
 
-namespace Core;
+namespace Core.Extensions;
 
 public static class DependencyInjection
 {
