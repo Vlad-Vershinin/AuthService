@@ -21,8 +21,11 @@ jobs:
         with:
           dotnet-version: '8.0.x'
 
+      - name: Build project
+        run: dotnet build AuthService/AuthService.csproj -c Release
+
       - name: Pack library
-        run: dotnet pack AuthService/AuthService.csproj -c Release -o ./dist
+        run: dotnet pack AuthService/AuthService.csproj -c Release -o ./dist --no-build
 
       - name: NuGet login (OIDC)
         uses: NuGet/login@v1
