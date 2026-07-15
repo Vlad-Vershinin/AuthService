@@ -6,8 +6,8 @@
     <Nullable>enable</Nullable>
 
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	<PackageId>AuthService.Core</PackageId>
-	<Version>1.0.1</Version>
+	<PackageId>AuthService</PackageId>
+	<Version>1.0.2</Version>
 	<Authors>Vladislav</Authors>
 	<Company>VladislavDev</Company>
 	<Description>Легковесная и расширяемая библиотека для авторизации и аутентификации (JWT + Refresh Tokens + BCrypt).</Description>
