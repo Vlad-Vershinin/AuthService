@@ -15,7 +15,7 @@ JWTSimple is a lightweight authentication and authorization library for .NET 8+ 
 ## 🚀 Installation
 
 ```bash
-dotnet add package AuthService --version 1.0.2
+dotnet add package JWTSimple --version 1.0.0
 ```
 
 ---
@@ -35,7 +35,7 @@ var jwtOptions = new JwtOptions
 {
     SecretKey = Environment.GetEnvironmentVariable("JWT_SECRET")
         ?? "super-secret-key-that-must-be-very-long-32-characters!",
-    Issuer = Environment.GetEnvironmentVariable("JWT_ISSUER") ?? "MyAuthService",
+    Issuer = Environment.GetEnvironmentVariable("JWT_ISSUER") ?? "MyJWTSimple",
     Audience = Environment.GetEnvironmentVariable("JWT_AUDIENCE") ?? "MyApps",
     ExpiryInMinutes = 15 // Short-lived access token
 };
